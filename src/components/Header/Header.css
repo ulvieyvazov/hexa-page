@@ -1,0 +1,88 @@
+.parent {
+    width: 100%;
+    background-image: url("https://preview.colorlib.com/theme/hexa/images/slider-1.jpg.webp");
+    background-position: center;
+    object-fit: cover;
+    color: white;
+}
+
+
+.header-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+.text {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center
+}
+
+.text h1 {
+    text-transform: upperCase;
+    text-align: center;
+    font-size: 44px
+}
+
+.text p {
+    line-height: 28px;
+    font-size: 24px
+}
+
+.get a {
+    text-transform: upperCase;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 12px 5px;
+    border-radius: 5px;
+}
+
+.get p {
+    text-transform: upperCase;
+    font-size: 16px;
+}
+
+.get {
+    padding-bottom: 180px;
+}
+
+.cart-parent{
+    padding: 100px 0;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart{
+    margin: 0 auto;
+    width: 25%;
+    text-align:center;
+    /* border: 1px solid black; */
+    box-shadow: 5px 3px 20px black;
+}
+.cart img{
+    width: 45%;
+    height: 180px;
+    margin: 0 auto;
+    /* border-radius: 50%; */
+}
