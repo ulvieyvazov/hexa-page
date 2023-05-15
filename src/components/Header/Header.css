@@ -44,7 +44,8 @@ ul {
 
 .text p {
     line-height: 28px;
-    font-size: 24px
+    font-size: 24px;
+    padding: 20px 0;
 }
 
 .get a {
@@ -62,7 +63,7 @@ ul {
 }
 
 .get {
-    padding-bottom: 180px;
+    padding-bottom: 190px;
 }
 
 .cart-parent{
@@ -75,14 +76,14 @@ ul {
 
 .cart{
     margin: 0 auto;
-    width: 25%;
+    width: 22%;
     text-align:center;
     /* border: 1px solid black; */
     box-shadow: 5px 3px 20px black;
 }
 .cart img{
     width: 45%;
-    height: 180px;
+    height: 190px;
     margin: 0 auto;
     /* border-radius: 50%; */
 }

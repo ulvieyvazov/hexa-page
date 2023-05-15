@@ -11,7 +11,7 @@
     width: 80%;
     margin: 0 auto;
     display: flex;
-    gap: 50px;
+    gap: 10px;
     align-items: center;
     margin-top: 110px;
     margin-bottom: 110px;
@@ -19,6 +19,7 @@
 
 .build-parent{
     width: 45%;
+    margin: 0;
 }
 
 .left{
@@ -43,11 +44,21 @@
     color: gray;
 }
 .image{
+    width: 30%;
+}
+
+.feb-image{
     width: 80%;
+    display: flex;
+    margin: 0 auto;
+    gap: 12px;
+    
 }
 
 .image img{
     width: 100%;
+    margin-right: -200px;
+    padding: 0;
 }
 
 .projects-parent{
@@ -62,10 +73,13 @@
 }
 .projects p{
     padding: 17px 0;
-    font-size: 18px;
+    font-size: 24px;
+    color: gray;
 }
+
 .projects h2{
-    font-size: 30px;
+    font-size: 38px;
+    font-weight: 400;
 }
 
 .images{
@@ -104,6 +118,8 @@
     width: 45%;
     display: flex;
     gap: 15px;
+    /* margin: 0 auto; */
+    
 }
 
 .d .feb{
