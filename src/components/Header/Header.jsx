@@ -28,7 +28,7 @@ const Header = () => {
                         </div>
                         <ul>
                             <li><NavLink to={"/"}>Home</NavLink></li>
-                            <li><NavLink to={"/add"}>About</NavLink></li>
+                            <li><NavLink to={"/add"}>Add</NavLink></li>
                             <li><NavLink to={""}>Projects</NavLink></li>
                             <li><NavLink to={""}>Services</NavLink></li>
                             <li><NavLink to={""}>Blog</NavLink></li>
