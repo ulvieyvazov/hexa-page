@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import "./Header.css"
 import axios from 'axios'
+import Carousel from "nuka-carousel"
+
+
 const Header = () => {
 
     // const [data, setData] = useState([])
@@ -19,39 +22,79 @@ const Header = () => {
     return (
         <>
 
-            <div className='parent'>
+            <Carousel>
+                <div className='parent'>
 
-                <div className='header-container'>
-                    <div className='header-left'>
-                        <div>
-                            HEXA
+                    <div className='header-container'>
+
+                        <div className='header-left'>
+                            <div>
+                                HEXA
+                            </div>
+                            <ul>
+                                <li><NavLink to={"/"}>Home</NavLink></li>
+                                <li><NavLink to={"/add"}>Add</NavLink></li>
+                                <li><NavLink to={""}>Projects</NavLink></li>
+                                <li><NavLink to={""}>Services</NavLink></li>
+                                <li><NavLink to={""}>Blog</NavLink></li>
+                                <li><NavLink to={""}>Contact</NavLink></li>
+                            </ul>
                         </div>
-                        <ul>
-                            <li><NavLink to={"/"}>Home</NavLink></li>
-                            <li><NavLink to={"/add"}>Add</NavLink></li>
-                            <li><NavLink to={""}>Projects</NavLink></li>
-                            <li><NavLink to={""}>Services</NavLink></li>
-                            <li><NavLink to={""}>Blog</NavLink></li>
-                            <li><NavLink to={""}>Contact</NavLink></li>
-                        </ul>
+                        <div>
+                            <button className='color-btn'>COLORBIL</button>
+                        </div>
+                        <div>
+
+                        </div>
                     </div>
-                    <div>
-                        <button>COLORBIL</button>
+                    <div className='text'>
+                        <h1>Creative Design</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+
+                        <div className='get' style={{ width: '30%', display: 'flex', alignItems: 'center', margin: '0 auto', gap: 30 }}>
+                            <a href="">get started</a>
+                            <p>download</p>
+                        </div>
                     </div>
 
                 </div>
-                <div className='text'>
-                    <h1>Modern Design</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
 
-                    <div className='get' style={{ width: '30%', display: 'flex', alignItems: 'center', margin: '0 auto', gap: 30 }}>
-                        <a href="">get started</a>
-                        <p>download</p>
+
+                <div className='corusel'>
+                    <div className='header-container'>
+
+                        <div className='header-left'>
+                            <div>
+                                HEXA
+                            </div>
+                            <ul>
+                                <li><NavLink to={"/"}>Home</NavLink></li>
+                                <li><NavLink to={"/add"}>Add</NavLink></li>
+                                <li><NavLink to={""}>Projects</NavLink></li>
+                                <li><NavLink to={""}>Services</NavLink></li>
+                                <li><NavLink to={""}>Blog</NavLink></li>
+                                <li><NavLink to={""}>Contact</NavLink></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <button className='color-btn'>COLORBIL</button>
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+                    
+                    <div className='text'>
+                        <h1>Modern Design</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+
+                        <div className='get' style={{ width: '30%', display: 'flex', alignItems: 'center', margin: '0 auto', gap: 30 }}>
+                            <a href="">get started</a>
+                            <p>download</p>
+                        </div>
                     </div>
                 </div>
-
-
-            </div>
+            </Carousel>
 
             {/* <div className='cart-parent'>
                 

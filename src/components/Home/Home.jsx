@@ -112,37 +112,37 @@ const Home = () => {
                         <div className="images">
                             <div>
                                 <img
-                                    src="https://preview.colorlib.com/theme/hexa/images/img_1_long.jpg.webp"
+                                    src="https://preview.colorlib.com/theme/hexa/images/img_1.jpg.webp"
                                     alt=""
                                 />
                             </div>
                             <div>
                                 <img
-                                    src="https://preview.colorlib.com/theme/hexa/images/img_1_long.jpg.webp"
+                                    src="https://preview.colorlib.com/theme/hexa/images/img_2.jpg.webp"
                                     alt=""
                                 />
                             </div>
                             <div>
                                 <img
-                                    src="https://preview.colorlib.com/theme/hexa/images/img_1_long.jpg.webp"
+                                    src="https://preview.colorlib.com/theme/hexa/images/img_3.jpg.webp"
                                     alt=""
                                 />
                             </div>
                             <div>
                                 <img
-                                    src="https://preview.colorlib.com/theme/hexa/images/img_1_long.jpg.webp"
+                                    src="https://preview.colorlib.com/theme/hexa/images/img_4.jpg.webp"
                                     alt=""
                                 />
                             </div>
                             <div>
                                 <img
-                                    src="https://preview.colorlib.com/theme/hexa/images/img_1_long.jpg.webp"
+                                    src="https://preview.colorlib.com/theme/hexa/images/img_5.jpg.webp"
                                     alt=""
                                 />
                             </div>
                             <div>
                                 <img
-                                    src="https://preview.colorlib.com/theme/hexa/images/img_1_long.jpg.webp"
+                                    src="https://preview.colorlib.com/theme/hexa/images/img_6.jpg.webp"
                                     alt=""
                                 />
                             </div>

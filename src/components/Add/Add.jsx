@@ -7,7 +7,7 @@ import axios from 'axios';
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { ProductAdd } from '../../schema/ProductAdd';
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 
 
 const Add = () => {
@@ -44,11 +44,11 @@ const Add = () => {
 
   return (
     <div>
-      <Helmet>
+      {/* <Helmet>
         <meta charSet="utf-8" />
-        <title>Home</title>
+        <title>Add</title>
         <link rel="canonical" href="http://mysite.com/example" />
-      </Helmet>
+      </Helmet> */}
 
       <form action="" onSubmit={handleSubmit(onPost)} style={{ margin: '50px 0' }}>
         <Box
